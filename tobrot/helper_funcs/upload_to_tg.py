@@ -65,7 +65,7 @@ async def upload_to_tg(
     caption_str = ""
     caption_str += "<b>"
     caption_str += base_file_name
-    caption_str += "<b>"
+    caption_str += "</b>"
     if os.path.isdir(local_file_name):
         directory_contents = os.listdir(local_file_name)
         directory_contents.sort()
